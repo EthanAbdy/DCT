@@ -1,0 +1,618 @@
+/*________________BACKGROUND________________*/
+
+/* Main Blocks */
+/* includes big background blocks that do not change at any point */
+.mainBackground {
+  height: 530px;
+  width: 1000px;
+  background-color: #282C30;
+  position: absolute;
+}
+.waveBackground {
+  height: 450px;
+  width: 850px;
+  background-color: #000000;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.settingsBoxBackground {
+  background-color: #4C5760;
+  width: 132px;
+  height: 513px;
+  position: absolute;
+  left: 870px;
+  top: 15px;
+}
+.bottomDataBox {
+  background-color: #363C3F;
+  width: 850px;
+  height: 56px;
+  position: absolute;
+  left: 15px;
+  top: 472px;
+}
+
+/* main attributes of data boxes */
+.dataBoxStatsInLeft, .dataBoxStatsInMiddle, .dataBoxStatsInRight {
+  border-radius: 5px;
+  background: #f5ff70;
+  padding: 2px; 
+  width: 200px;
+  height: 33px;
+  position: absolute;
+}
+
+.dataBoxStatsOutLeft, .dataBoxStatsOutMiddle, .dataBoxStatsOutRight {
+  border-radius: 5px;
+  background: #363C3F;
+  padding: 2px; 
+  width: 198px;
+  height: 31px;
+  position: absolute;
+}
+
+/* individual attributes of data boxes */
+.dataBoxStatsInLeft {
+  left: 210px;
+  top: 481px;
+}
+
+.dataBoxStatsOutLeft {
+  left: 211px;
+  top: 482px;
+}
+
+.dataBoxStatsInMiddle {
+  left: 430px;
+  top: 481px;
+}
+
+.dataBoxStatsOutMiddle{
+  left: 431px;
+  top: 482px;
+}
+
+.dataBoxStatsInRight {
+  left: 650px;
+  top: 481px;
+}
+
+.dataBoxStatsOutRight {
+  left: 651px;
+  top: 482px;
+}
+
+/* Background Settings Boxes */
+/* main attributes of each box */
+.settingsBoxOne, .settingsBoxTwo, .settingsBoxThree, .settingsBoxFour, .settingsBoxFive {
+  background-color: #363C3F;
+  width: 130px;
+  height: 93px;
+  position: absolute;
+}
+/* placements of individual boxes from the top one (ONE) to the last one (FIVE) */
+.settingsBoxOne {
+  left: 871px;
+  top: 53px;
+}
+.settingsBoxTwo {
+  left: 871px;
+  top: 148px;
+}
+.settingsBoxThree {
+  left: 871px;
+  top: 243px;
+}
+.settingsBoxFour {
+  left: 871px;
+  top: 338px;
+}
+.settingsBoxFive {
+    left: 871px;
+    top: 433px;
+  }
+
+/* Channel Boxes */
+.channelOneBox, .channelTwoBox {
+  width: 70px;
+  height: 43px;
+  left: 25px;
+  top: 478px;
+  position: absolute;
+}
+
+.channelOneBox {
+  background: #595f3e;
+  left: 26px;
+  top: 479px;
+  position: absolute;
+}
+
+.channelTwoBox {
+  background: #394e5f;
+  left: 115px;
+  top: 479px;
+  position: absolute;
+}
+
+
+/*________________TEXT________________*/
+
+/* (1) General Text */
+/* main attributes of each box */
+settingsName, gridSizeText, waveSelectText, varFreqText, trigVoltageText,
+waveText, pulseText, gridVoltageText,   voltageArrowL, voltageArrowR, nanosecondGridSetR,
+nanosecondGridSetL, waveTypeArrowR, waveTypeArrowL, wavetypeSelectText, gridNanosecondsText,
+channelOneName, channelTwoName, statsLeftBoxText, statsMiddleBoxText, statsRightBoxText {
+  position: absolute;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+}
+
+/* individual attributes of each text */
+  settingsName {
+    top: 25px;
+    left: 902px;
+    color: white;
+  }
+
+  gridSizeText {
+    top: 160px;
+    left: 898px;
+    color: rgb(75, 75, 75);
+  }
+
+  waveSelectText {
+    top: 255px;
+    left: 895px;
+    color: rgb(90, 90, 90);
+  }
+
+  varFreqText {
+    top: 350px;
+    left: 882px;
+    color: white;
+    font-size: 8pt;
+  }
+
+  trigVoltageText {
+    top: 445px;
+    left: 884px;
+    color: white;
+    font-size: 8pt;
+  }
+
+  waveText {
+    top: 70px;
+    left: 892px;
+    color: white;
+    font-size: 8pt;
+  }
+
+  pulseText {
+    top: 70px;
+    left: 942px;
+    color: white;
+    font-size: 8pt;
+  }
+  
+  gridVoltageText  {
+    top: 189px;
+    left: 914px;
+    color: white;
+    font-size: 11pt;
+  }
+
+  voltageArrowR  {
+    top: 400px;
+    left: 80px;
+    color: white;
+    font-size: 8pt;
+  }
+
+  voltageArrowL  {
+    color: white;
+    font-size: 8pt;
+  }
+
+  nanosecondGridSetR  {
+    top: 390px;
+    left: 80px;
+    color: white;
+    font-size: 8pt;
+  }
+
+  nanosecondGridSetL  {
+    color: white;
+    font-size: 8pt;
+  }
+
+  waveTypeSelectL  {
+    color: white;
+    font-size: 8pt;
+  }
+
+  waveTypeSelectR  {
+    color: white;
+    font-size: 8pt;
+  }
+
+  wavetypeSelectText  {
+    top: 295px;
+    left: 917px;
+    color: rgb(255, 255, 255);
+    font-size: 12pt;
+  }
+
+  gridNanosecondsText  {
+    top: 214px;
+    left: 908px;
+    color: white;
+    font-size: 11pt;
+  }
+
+  channelOneName {
+    top: 490px;
+    left: 36px;
+    color: white;
+    font-size: 22px;
+  }
+
+  channelTwoName {
+    top: 490px;
+    left: 123px;
+    color: white;
+    font-size: 22px;
+  }
+
+  statsLeftBoxText {
+    top: 492px;
+    left: 220px;
+    color: white;
+    font-size: 13px;
+  }
+
+  statsMiddleBoxText {
+    top: 492px;
+    left: 443px;
+    color: white;
+    font-size: 13px;
+  }
+
+  statsRightBoxText {
+    top: 492px;
+    left: 663px;
+    color: white;
+    font-size: 13px;
+  }
+
+/* (2) Changing Text */
+  sliderAcText {
+    letter-spacing: 1px;
+    top: 108px;
+    left: 945px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 10pt;
+  }
+  
+  sliderDcText {
+    letter-spacing: 1px;
+    top: 108px;
+    left: 902px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 10pt;
+  }
+
+/* ________________ARROWS__________________ */
+
+.arrow-right, .arrow-left, .arrow-right-wave2 {
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+
+  .arrow-right {
+    width: 90; 
+    height: 50; 
+    border-left: 7px solid white;
+    left: 975px;
+    top: 190px;
+  }
+  
+  .arrow-left {
+    width: 0; 
+    height: 0;
+    border-right: 7px solid white;
+    left: 887px;
+    top: 190px;
+  }
+
+  .arrow-right-wave {
+    width: 90; 
+    height: 50; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid white;
+    top: 295px;
+    left: 974px;
+  }
+  
+  .arrow-left-wave {
+    width: 0; 
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid white;
+    top: 295px;
+    left: 887px;
+  }
+
+  .arrow-right-wave2 {
+    width: 90; 
+    height: 50; 
+    border-left: 7px solid white;
+    top: 215px;
+    left: 975px;
+  }
+  
+  .arrow-left-wave2 {
+    width: 0; 
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 7px solid white;
+    top: 215px;
+    left: 887px;
+  }
+
+  /* ________________GRID__________________ */
+
+  /* Main Attributes of Lines */
+  .lineHorizontalBaseOne, .lineHorizontalBaseTwo, .lineHorizontalBaseThree,
+  .lineHorizontalBaseFour, .lineHorizontalBaseFive, .lineHorizontalBaseSix, .lineHorizontalBaseMiddle {
+    width: 848px;
+    left: 16px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.253);
+    position: absolute;
+    }
+  
+  .lineVerticalBaseOne, .lineVerticalBaseTwo, .lineVerticalBaseThree,
+  .lineVerticalBaseFour, .lineVerticalBaseFive, .lineVerticalBaseSix, .lineVerticalBaseSeven,
+  .lineVerticalBaseEight, .lineVerticalBaseNine, .lineVerticalBaseTen, .lineVerticalBaseEleven, .lineVerticalBaseMiddle {
+    width: 848px;
+  
+    height: 449px;
+
+    top: 16px;
+  
+    border-left: 1px dotted rgba(255, 255, 255, 0.253);
+    position: absolute;
+    }
+
+  /* Attributes of Individual Lines */
+    .lineVerticalBaseOne{
+      left: 85px;
+    }
+
+    .lineVerticalBaseTwo{
+      left: 155px;
+    }
+
+    .lineVerticalBaseThree{
+       left: 225px;
+     }
+
+    .lineVerticalBaseFour{
+      left: 295px;
+    }
+
+    .lineVerticalBaseFive{
+      left: 365px;
+     }
+
+    .lineVerticalBaseSix{
+      left: 435px;
+     }
+
+    .lineVerticalBaseSeven{
+      left: 505px;
+     }
+
+    .lineVerticalBaseEight{
+      left: 575px;
+    }
+
+     .lineVerticalBaseNine{
+     left: 645px;
+     }
+
+     .lineVerticalBaseTen{
+      left: 715px;
+     }
+  
+    .lineVerticalBaseEleven{
+     left: 785px;
+     }
+  
+  .lineHorizontalACBase{
+    width: 848px;
+
+    height: 240px;
+    left: 16px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.473);
+
+    position: absolute;
+    }
+
+  .lineVerticalACBase{
+    width: 848px;
+  
+    height: 449px;
+    left: 15px;
+    top: 16px;
+  
+    border-left: 1px solid rgba(255, 255, 255, 0.473);
+    position: absolute;
+    }
+
+    .lineHorizontalDCBase{
+      width: 849px;
+  
+      height: 456px;
+      left: 16px;
+  
+      border-bottom: 1px solid rgba(255, 255, 255, 0.473);
+
+      position: absolute;
+      }
+
+    .lineHorizontalBaseOne{
+      height: 65px;
+      }
+
+    .lineHorizontalBaseTwo{
+      height: 123px;
+      }
+
+    .lineHorizontalBaseThree{
+      height: 181px;
+      }
+
+    .lineHorizontalBaseMiddle{
+      height: 240px;
+     }
+
+    .lineHorizontalBaseFour{
+      height: 298px;
+      }
+
+    .lineHorizontalBaseFive{
+      height: 356px;
+      }
+
+    .lineHorizontalBaseSix{
+       height: 414px;
+       }
+
+       
+/* ________________SLIDERS / SWITCHES__________________ */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 92px;
+  height: 34px;
+  left: 880px;
+  top: 90px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 40px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #3c566b;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(43px);
+}
+
+input[type=text] {
+  width: 72px;
+  height: 33px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: absolute;
+  left: 878px;
+  top: 370px;
+}
+
+input[type=text2] {
+  width: 89px;
+  height: 33px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  position: absolute;
+  left: 890px;
+  top: 468px;
+}
+
+select {
+  width: 40px;
+  height: 31px;
+  top: 379px;
+  left: 953px;
+  padding: 4px;
+  border-radius: 1px;
+  background: #eee;
+  position: absolute;
+  border: none;
+  outline: none;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+label:after {
+  content: '<>';
+  font: 11px "Consolas", monospace;
+  color: #666;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 388px;
+  left: 979px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* ____________POINTER____________*/
+.pointer{
+  width: 848px;
+  left: 50px;
+  height: 448px;
+  top: 16px;
+  border-left: 2px solid rgb(255, 238, 0);
+  position: absolute;
+}
